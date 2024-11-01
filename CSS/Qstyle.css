@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+  max-width: 100%;
+}
+
+/* header styling*/
+
+.blueBG{
+    background-color: rgb(15, 76, 114);
+    text-align: center;
+    color: white;
+    padding-top: 27px;
+    padding-bottom: 24px;
+
+  /* banner styling*/
+
+}
+.banner{
+    background-image: url(../images/images/banner-puppies.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+.puppy-banner{
+    width: 100%;
+}
+
+.puppies-section .puppy-1{
+    background-image: url(../images/images/puppy-1.jpg);
+    height: 310px;
+    width: 308px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.puppy-1{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.puppy-2{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.missed-puppy{
+    background-color: rgb(226, 43, 43);
+    height: 310px;
+    width: 308px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+.missing-1 {
+    padding-top: 65px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+.puppies-section .puppy-2{
+    background-image: url(../images/images/puppy-2.jpg);
+    height: 310px;
+    width: 308px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+.puppies-section{ 
+    display: block;
+    width: 308px;
+    margin: auto;
+}
+
+.more-text{
+    text-align: center;
+    font-size: 30px;
+    padding:5px 0;
+}
+
+.puppies-divission .puppy-3{
+    background-image: url(../images/images/puppy-3.jpg);
+    height:310px;
+    width: 308px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.puppies-divission .puppy-4{
+    background-image: url(../images/images/puppy-4.jpg);
+    height: 310px;
+    width: 308px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.puppies-divission{
+    display: block;
+    margin: 50px;
+
+}
+
+.puppy-4,.puppy-3{
+    margin:50px auto;
+    width: 308px;
+
+}
+
+
+.name{
+    padding: 25px;
+    font-size: 20px;
+}
+
+@media(min-width:980px){
+    .puppies-section{
+        display: flex;
+        width: 980px;
+    }
+    .missed-puppy{
+        display: block;
+        width: 32%;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .banner{
+        height: 300px;
+    }
+
+    .puppies-section .puppy-1,.puppy-2{
+        width: 32%;
+        justify-content: space-between;
+    
+    }
+
+    .puppies-divission{
+        display: flex;
+        width: 980px;
+        margin: 0 auto; 
+    }
+
+.puppies-divission .puppy-3 {
+    width: 40%;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+
+    .puppies-divission .puppy-4{
+        width: 40%;
+        margin-right: 10px;
+        justify-content: space-between;
+    }
+
+        
+}
